@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/faq-accordion-responsive/static/css/main.ad1e51d2.css",
+    "main.js": "/faq-accordion-responsive/static/js/main.0e9a9c16.js",
+    "index.html": "/faq-accordion-responsive/index.html",
+    "main.ad1e51d2.css.map": "/faq-accordion-responsive/static/css/main.ad1e51d2.css.map",
+    "main.0e9a9c16.js.map": "/faq-accordion-responsive/static/js/main.0e9a9c16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad1e51d2.css",
+    "static/js/main.0e9a9c16.js"
+  ]
+}
