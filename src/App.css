@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.mylink{
+  margin-top: -1rem;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#App{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+   height: 100%;
+  padding-bottom: 4rem;
+}
+
+
+
+h1 {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  box-sizing: border-box;
+}
+
+
+.question{
+  padding-left: 1rem;
+  height: 3rem;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
+.answer{
+  padding: 0.7rem  1rem;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
+.addQ,
+.addA {
+  margin-bottom: 0.5rem;
+}
+
+.questionInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.answerInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.faqBox {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 2rem;
+  
+}
+
+.divMain {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+
+.qnaDiv{
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.quesA {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.ansA{
+  display: none;
+}
+
+.show {
+  margin-bottom: 1.2rem;
+  display: block;
+  
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+
+
+
+button{
+  cursor: pointer;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  border: none;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: #5b9dfa;
+}
+
+button:hover{
+  background-color: #156ce6;
+  color: white;
+}
+
+
+@media (min-width:1440px) {
+  .faqBox,.inputs {
+    width: 70%;
+  }
+}
+
+@media (max-width:768px) {
+  .faqBox,.inputs {
+    width: 75%;
+  }
+
+  .quesA{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:575px){
+.faqBox,.inputs {
+    width: 85%;
+  }
+}
+
+@media (max-width:575px){
+  .ansA{
+    font-size: 0.8rem;
+  }
+}
